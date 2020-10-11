@@ -1,8 +1,8 @@
 let express = require('express');
 let router = express.Router();
 let Henry = require('./Henry.js');
-let Alice = require('./Alice.js');
-let Bob = require('./Bob.js');
+let Anna = require('./Anna.js');
+let Sam = require('./Sam.js');
 router.get('/', (req, res) => {
     let options = {
         root: __dirname,
@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
     res.sendFile("index.html", options)
 })
 router.use('/Henry', Henry);
-router.use('/Alice', Alice);
-router.use('/Bob', Bob);
+router.use('/Anna', Anna);
+router.use('/Sam', Sam);
 
 module.exports = router;
