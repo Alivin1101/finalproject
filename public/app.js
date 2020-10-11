@@ -27,7 +27,7 @@ function renderStudents(doc){
     });
     //
 
-    studentsTable.appendChild(tr);
+    studentsTable.appendChild(tr);//
 }
 
 // getting data 
