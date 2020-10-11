@@ -16,7 +16,7 @@ router.get('/', function(req, res) {
 router.get('/about', function(req, res) {
   res.send(
     '<h1> Hi,my name is Anna.</h1>'+
-    '\n <img src="https://www.google.com/url?sa=i&url=http%3A%2F%2Farxiv-ai.com%2Forgnization%3Fname%3DSenseTime%2520Research%2520%26%2520THU%2520%26%2520NTU&psig=AOvVaw0QHWFI-9yW44cqfYbWuxMD&ust=1602514023259000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCB5o3krOwCFQAAAAAdAAAAABAJ" height="70%">'
+    '\n <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1000%2F1*qyAOepULOa_kVehhEIySKA.jpeg&imgrefurl=https%3A%2F%2Fmedium.com%2Fswlh%2Fyes-your-cat-can-get-coronavirus-10b9fc732e3a&tbnid=tXjTq63ONSn_NM&vet=12ahUKEwiq6bzJ5KzsAhVzI6YKHaIlC0sQMygGegUIARCHAQ..i&docid=nrp7owRWMd3RkM&w=1000&h=777&q=cat&ved=2ahUKEwiq6bzJ5KzsAhVzI6YKHaIlC0sQMygGegUIARCHAQ" height="70%">'
     );
 });
 

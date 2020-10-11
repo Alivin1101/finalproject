@@ -16,7 +16,7 @@ router.get('/', function(req, res) {
 router.get('/about', function(req, res) {
   res.send(
       '<h1> Hi,my name is Sam.</h1>'+
-  '\n <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fstore.line.me%2Fstickershop%2Fproduct%2F1008584%2Fzh-Hant&psig=AOvVaw27V_D1jeHC5OhlRsSip_sj&ust=1602514156164000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICm68vkrOwCFQAAAAAdAAAAABAD" height="70%">'
+  '\n <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.connexionfrance.com%2Fvar%2Fconnexion%2Fstorage%2Fimages%2F_aliases%2Fsocial_network_image%2Fmedia%2Fimages%2Fbrown-bear4%2F1071634-1-eng-GB%2FBrown-bear.jpg&imgrefurl=https%3A%2F%2Fwww.connexionfrance.com%2FFrench-news%2F30-000-reward-for-info-on-southwest-France-bear-killer&tbnid=G2nDEZw8Bg5DSM&vet=12ahUKEwjmvs_A5qzsAhV0xYsBHcu0ALsQMygfegUIARDhAQ..i&docid=VHeZvzzGMnPCfM&w=3832&h=2848&q=bear&ved=2ahUKEwjmvs_A5qzsAhV0xYsBHcu0ALsQMygfegUIARDhAQ" height="70%">'
   );
 });
 module.exports = router;
